@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="content" method="upgrade">
+	<name>plg_content_tabs_content</name>
+	<author>Media Virtual</author>
+	<creationDate>Dezembro 2015</creationDate>
+	<copyright>Copyright (C) 2015 Media Virtual. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>contato@mediavirtual.com.br</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<version>3.1.0</version>
+	<description>PLG_TABS_CONTENT_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="tabs_content">tabs_content.php</filename>
+		<filename>index.html</filename>
+		<filename>tabs_content.xml</filename>
+		<folder>vendor</folder>
+	</files>
+	<languages folder="language" >
+		<language tag="pt-BR">pt-BR.plg_content_tabs_content.ini</language>
+		<language tag="pt-BR">pt-BR.plg_content_tabs_content.sys.ini</language>
+	</languages>	
+</extension>
